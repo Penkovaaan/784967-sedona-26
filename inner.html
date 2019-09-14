@@ -20,6 +20,36 @@
      <h1>Sedona's Hotels</h1>
         <!-- подбор гостиницы по критериям <span></span>-->
 <!-- карточки гостиниц -->
+<form action="#" method="get">
+
+<fieldset>
+  <input type="checkbox" name="pool" checked id="pool-field"> <label>Бассейн</label> <br>
+  <input type="checkbox" name="parking"  id="parking-field"> <label>Парковка</label> <br>
+  <input type="checkbox" name="wifi" id="wifi-field"> <label>Wi-Fi</label>
+</fieldset>
+
+<fieldset>
+  <input type="checkbox" name="hotel"  id="hotel-field" checked> <label>Гостиница</label> <br>
+  <input type="checkbox" name="motel" id="motel-field" checked> <label>Мотель</label> <br>
+  <input type="checkbox" name="apartments" id="apartments-field" checked> <label>Апартаменты</label>
+</fieldset>
+
+<label>Стоимость в сутки(Р):</label>
+от 0<input type="range" min="0" max="4000"> до 4000
+
+<input type="submit" value="Показать">
+
+</form>
+
+<div>
+  <h2>Найдено:</h2>
+  <p>Сортировка:</p>
+  <a href="#">По цене</a>
+  <a href="#">По типу</a>
+  <a href="#">По рейтингу</a>
+  <a href="#"><img src="#" alt="sort up"></a>
+  <a href="#"><img scr="#" alt="sort down"></a>
+</div>
     <section>
       <ul>
 
@@ -59,7 +89,7 @@
         <li>
         <img src="img/hotel3.jpg" alt="hotel3">
         <h2>Villas at poco diablo</h2>
-        <p>Аппартаменты</p>
+        <p>Апартаменты</p>
         <p>от 2000р.</p>
         <ul>
           <li></li>
@@ -72,6 +102,8 @@
 
       </ul>
     </section>
+
+
 
  </main>
  <footer>
