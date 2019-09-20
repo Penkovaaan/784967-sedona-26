@@ -30,9 +30,8 @@
     <h3>Настоящий городок</h3>
     <p>-№1-</p>
     <p>Седона - не аттракцион для туристов, там течёт своя жизнь</p>
+    <img src="img/hotel.jpg" alt="Hotel picture">
   </li>
-
-  <li><img src="img/hotel.jpg" alt="Hotel picture"></li>
 
     <ul>
       <li>
@@ -49,12 +48,11 @@
       </li>
     </ul>
 
-<li><img src="img/kanyon.jpg" alt="Canyon"></li>
-
   <li>
     <h3>Там есть мост дьявола</h3>
     <p>-№2-</p>
     <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+    <img src="img/kanyon.jpg" alt="Canyon">
   </li>
 
   <li>
@@ -92,11 +90,19 @@
       </label>
 <br>
       <label for="adults-quantity">Взрослые:
-        <input type="number" name="adults" value="0" id="adults-quantity">
+        <div>
+          <button class="minus">-</button>
+          <input type="number" name="adults" value="0" id="adults-quantity">
+          <button class="plus">+</button>
+        </div>
       </label>
 
       <label for="kids-quantity">Дети:
-        <input type="number" name="kids" value="0" id="kids-quantity">
+        <div>
+          <button class="minus">-</button>
+          <input type="number" name="kids" value="0" id="kids-quantity">
+          <button class="plus">+</button>
+        </div>
       </label>
 
       <input type="submit" value="Найти">
