@@ -7,7 +7,7 @@
   <body>
  <header>
    <nav>
-    <a href="index.html"> <img src="img/logo-sedona.svg"  alt="Логотип City of Sedona"></a> <!-- логотип как ссылка на главную страницу, не является пунктом меню-->
+    <a href="index.html"> <img src="img/logo-sedona.svg"  alt="Logo City of Sedona"></a> <!-- логотип как ссылка на главную страницу, не является пунктом меню-->
     <ul>
       <li><a href="">Информация</a></li> 
       <li><a href="">Фото и видео</a></li>
@@ -17,7 +17,7 @@
    </nav>
  </header>
  <main>
-   <h1>Седона</h1>
+   <h1 class="visually-hidden">Седона</h1>
 
    <img src="img/intro-welcome.svg" alt="Main text"> <!-- текст на фоне-->
    <img src="img/background_photo.jpg" alt="Background"> <!-- вообще можно подключить через css-->
@@ -25,10 +25,12 @@
    <h2>Седона - небольшой городок в аризоне, заслуживающий большего!</h2>
    <p> Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
 
-<ol>
+<ul>
   <li>
     <h3>Настоящий городок</h3>
+    <p>-№1-</p>
     <p>Седона - не аттракцион для туристов, там течёт своя жизнь</p>
+    <img src="img/hotel.jpg" alt="Hotel picture">
   </li>
 
     <ul>
@@ -48,24 +50,29 @@
 
   <li>
     <h3>Там есть мост дьявола</h3>
+    <p>-№2-</p>
     <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+    <img src="img/kanyon.jpg" alt="Canyon">
   </li>
 
   <li>
     <h3>Небольшая площадь</h3>
+    <p>-№3-</p>
     <p>Все достопримечательности находятся очень близко</p>
   </li>
 
   <li>
     <h3>Красивая дорога</h3>
+    <p>-№4-</p>
     <p> Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
   </li>
 
   <li>
     <h3>Мало туристов</h3>
+    <p>-№5-</p>
     <p>Большинство едет в Гранд каньон и толпится там</p>
   </li>
-</ol>
+</ul>
 
    <section>
       <h2>Заинтересовались?</h2>
@@ -73,23 +80,33 @@
       <!-- модальное окно с формой для подбора гостиницы
       <a href="#modal" name="modal"><img src="#" alt="Поиск гостиниц в Седоне"></a>
       -->
-      <label>Дата заезда:
-        <input type="date" name="date_in">
+      <form action="#" method="get">
+      <label for="date-in">Дата заезда:
+        <input type="date" name="date_in" id="date-in">
       </label>
 <br>
-      <label>Дата выезда:
-       <input type="date" name="date_out">
+      <label for="date-out">Дата выезда:
+       <input type="date" name="date_out" id="date-out">
       </label>
 <br>
-      <label>Взрослые:
-        <input type="number" name="adults" value="0">
+      <label for="adults-quantity">Взрослые:
+        <div>
+          <button class="minus">-</button>
+          <input type="number" name="adults" value="0" id="adults-quantity">
+          <button class="plus">+</button>
+        </div>
       </label>
 
-      <label>Дети:
-        <input type="number" name="kids" value="0">
+      <label for="kids-quantity">Дети:
+        <div>
+          <button class="minus">-</button>
+          <input type="number" name="kids" value="0" id="kids-quantity">
+          <button class="plus">+</button>
+        </div>
       </label>
 
       <input type="submit" value="Найти">
+      </form>
    </section>
    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d705298.7190889656!2d-112.0146081327514!3d34.79490295954675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1568484203790!5m2!1sru!2sru" width="600" height="450" frameborder="0"  allowfullscreen=""></iframe>
  </main>
@@ -97,12 +114,12 @@
     <p>#VISITSEDONA</p>
 
       <ul>
-        <li><a href="#"> <img src="img/twitter.svg"> </a></li>
-        <li><a href="#"><img src="img/fb-icon.svg"></a></li>
-        <li><a href="#"><img src="img/youtube.svg"></a></li>
+        <li><a href="#"> <img src="img/twitter.svg" alt="Twitter link"> </a></li>
+        <li><a href="#"><img src="img/fb-icon.svg" alt="FaceBook link"></a></li>
+        <li><a href="#"><img src="img/youtube.svg" alt="Youtube link"></a></li>
       </ul>
 
-      <a href=""><img src="img/logo-htmlacademy.svg"  alt="Логотип HTML Academy"></a>
+      <a href=""><img src="img/logo-htmlacademy.svg"  alt="Logo HTML Academy"></a>
   </footer>
   </body>
 </html>
