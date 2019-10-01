@@ -1,0 +1,115 @@
+h1{
+    display: none
+}
+.maintext{
+    background-image: url(background_photo.jpg);
+    background-color: cadetblue;
+}
+
+.form1{
+    display: none;
+}
+p{
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    
+}
+a{
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+}
+h2{
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+}
+h3{
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+}
+.li1{
+    background-color: #81b3d2;
+    color: white;
+}
+.greyli{
+    background-color: #eeeeee;
+}
+.header{
+
+}
+.menu1 
+{
+    float: left;
+    width: 150px;
+    min-height: 50px;
+    margin-left: 10px; 
+}
+.menu2{
+    float: left;
+    width: 150px;
+    min-height: 50px;
+}
+
+.menu4{
+    float: right;
+    width: 150px;
+    min-height: 50px;
+}
+.menu3{
+    float:
+}
+.menu5{
+    float: right;
+    width: 150px;
+    height: 50px;
+}
+.main{
+    clear: both;
+}
+.imageli1{
+    float: left;
+    width: 400px;
+    margin-right: 9px;
+    min-height: 255px;
+}
+
+.reasons{
+    clear: both;
+}
+.reason1{
+    float: left;
+  width: 400px;
+  min-height: 320px;
+  text-align: center;
+}
+.reason2{
+    float: left;
+  width: 400px;
+  min-height: 320px;
+  text-align: center;
+}
+.reason3{
+    float: right;
+  width: 400px;
+  min-height: 320px;
+  text-align: center;
+}
+.imageli2{
+    clear: both;
+}
+.li3{
+    float: left;
+  width: 400px;
+  min-height: 320px;
+  text-align: center;
+}
+.li4{
+    float: left;
+  width: 400px;
+  min-height: 320px;
+  text-align: center;
+}
+.li5{
+    float: right;
+  width: 400px;
+  min-height: 320px;
+  text-align: center;
