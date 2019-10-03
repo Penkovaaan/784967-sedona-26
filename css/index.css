@@ -3,7 +3,7 @@ body{
     text-transform: uppercase;
     font-size: 14px;
     background-color: #f2f2f2;
-   
+  
 
     
     width: 1200px;
@@ -14,14 +14,17 @@ body{
     left: 850px;
     
 }
-
+header{
+    padding-top:0;
+    margin: auto;
+}
 .main-navigation{
     background-color: white;
     font-size: 14px;
     font-weight: 700;
   color: black;
     height: 60px;
-    
+    padding:0;
 }
 .site-navigation{
     display: flex;
@@ -50,6 +53,7 @@ color: #b7b7b7;
     background-position: 50% 50%;
     text-align: center;
     height: 500px;
+    
 }
 .maintext img{
     padding-top: 75px;
@@ -103,9 +107,7 @@ a{
 .nonelist{
     list-style-type: none;
 }
-.contacts{
-    background-color: #81b3d2;
-}
+
 h2{
     font-size: 21px;
 }
@@ -136,7 +138,8 @@ h2{
 }
 .reasons-3, .reasons-list{
     text-align: center;
-    
+    padding-left: 0;
+    margin: auto;
 }
 .reasons-3{
     background-color: white;
@@ -148,15 +151,59 @@ h2{
 }
 .reasons-3 p{
     width: 285px;
-    margin: auto;
+    margin: 0 auto;
+    color: #333333;
 }
+.grey p{
+    color: #333333;
+}
+
 .interesting{
     height: 295px;
     background-color: white;
     text-align: center;
+   
 }
 .interesting h2{
     padding-top: 100px;
+    margin: auto;
+    font-size: 30px; 
+}
+.form1{
+    background-color: white;
+    height: 395px;
+    width: 570px;
+    margin: auto;
+    position: absolute;
+    right:650px;
+    box-shadow: 0 5px 10px -5px #b7b7b7;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+.form1 .date:first-child{
+    padding-top: 56px;
+}
+.date{
+    width: 460px;
+}
+.search{
+    cursor: pointer;
+    display: block;
+    text-transform: uppercase;
+    background-color: #81b3d2;
+    color: white;
+    font-family: 'PT Sans', "Tahoma", sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    height: 50px;
+    width: 460px;
+    border: none;
+}
+.put{
+    justify-content: space-between;
 }
 .footer-navigation{
     display: flex;
@@ -164,14 +211,24 @@ h2{
     justify-content: space-around;
     background-color: white;
     height: 100px;
-    
+    margin: 0 auto;
+    justify-content: space-around;
 }
 .contacts{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 150px;
     
 }
-.contacts a{
+.contacts li{
+    background-color: #81b3d2;
     width: 46px;
     height: 46px;
+    padding-left: 6px;
+    margin: auto;
+}
+.contacts a{
+    padding-left: 6px;
+    margin: auto;
 }
