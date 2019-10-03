@@ -14,12 +14,14 @@ body{
     left: 850px;
     
 }
+
 .main-navigation{
     background-color: white;
     font-size: 14px;
     font-weight: 700;
   color: black;
     height: 60px;
+    
 }
 .site-navigation{
     display: flex;
