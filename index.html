@@ -7,8 +7,8 @@
   </head>
   <body>
  <header>
+    <a href="index.html" class="logo" > <img src="img/logo-sedona.svg" height="70px" width="190px" alt="Logo City of Sedona"></a>
    <nav class="main-navigation">
-    <a href="index.html"  > <img src="img/logo-sedona.svg" height="70px" width="190px" alt="Logo City of Sedona"></a> <!-- логотип как ссылка на главную страницу, не является пунктом меню-->
     <ul class="nonelist site-navigation">
       <li ><a href="">Информация</a></li> 
       <li ><a href="">Фото и видео</a></li>
@@ -18,51 +18,49 @@
    </nav>
  </header>
  <main >
-   <h1 >Седона</h1>
-  <div >
-   <img class="maintext" src="img/intro-welcome.svg" alt="Main text" height="340px"> <!-- текст на фоне-->
+   <h1 class="sedona">Седона</h1>
+  <div class="maintext">
+   <img  src="img/intro-welcome.svg" alt="Main text" height="340px"> <!-- текст на фоне-->
+   <img  class="border" src="img/polygon.png" alt="White border" width="1200px">
   </div>
-   <!--<img src="img/background_photo.jpg" alt="Background"> --> <!-- вообще можно подключить через css-->
-   
-   <img src="img/polygon.png" alt="White border">
    <div class="center-text">
    <h2 class="">Седона - небольшой городок в аризоне, заслуживающий большего!</h2>
    <p class=""> Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
     </div>
 
 <ul class="nonelist reasons-list">
-  <div class="fistline">
+  <div class="line">
   <li class=" blue" >
     <h3>Настоящий городок</h3>
     <p>-№1-</p>
     <p>Седона - не аттракцион для туристов, там течёт своя жизнь</p>
     
   </li>
-  <img src="img/hotel.jpg" alt="Hotel picture" width="800px" height="300px">
+  <img src="img/hotel.jpg" alt="Hotel picture" width="800px" height="255px">
   </div>
-    <ul class="reasons-3 nonelist secondline" >
+    <ul class="reasons-3 nonelist line" >
       <li class="house">
         <h3>Жильё</h3>
         <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
       </li>
-      <li >
+      <li class="food">
         <h3>Еда</h3>
         <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
       </li>
-      <li >
+      <li class="relic">
         <h3>Сувениры</h3>
         <p>Не только китайского, но и местного производства!</p>
       </li>
     </ul>
-<div class="thirdline">
+<div class="row-line">
   <li class=" blue" >
     <h3>Там есть мост дьявола</h3>
     <p>-№2-</p>
     <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-    <img src="img/kanyon.jpg" alt="Canyon" width="800px" height="300px">
   </li>
+  <img src="img/kanyon.jpg" alt="Canyon" width="800px" height="255px">
 </div>
-<div class="fourthline">
+<div class="line">
   <li class=" grey">
     <h3>Небольшая площадь</h3>
     <p>-№3-</p>
@@ -84,8 +82,10 @@
 </ul>
 
    <section class="" >
-      <h2 class="center-text">Заинтересовались?</h2>
-      <p class="center-text">Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
+     <div class="interesting">
+      <h2 >Заинтересовались?</h2>
+      <p>Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
+    </div>
       <!-- модальное окно с формой для подбора гостиницы
       <a href="#modal" name="modal"><img src="#" alt="Поиск гостиниц в Седоне"></a>
       -->
