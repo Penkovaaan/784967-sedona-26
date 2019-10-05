@@ -87,23 +87,22 @@
       <p>Укажите предполагаемые даты поездки,
         <br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
     </div>
-      <!-- модальное окно с формой для подбора гостиницы
-      <a href="#modal" name="modal"><img src="#" alt="Поиск гостиниц в Седоне"></a>
-      -->
+    
+    <a href="#modal" name="modal">ПОИСК ГОСТИНИЦ В СЕДОНЕ</a>
       <form action="#" method="get" class="form1">
-      <label for="date-in" class="date put">Дата заезда:
-        <input type="date" name="date_in" id="date-in">
+      <label for="date-in" class="date ">Дата заезда:
+        <input type="date" name="date_in" id="date-in" class="date-input">
       </label>
 <br>
-      <label for="date-out" class="date put">Дата выезда:
-       <input type="date" name="date_out" id="date-out">
+      <label for="date-out" class="date ">Дата выезда:
+       <input type="date" name="date_out" id="date-out"  class="date-input">
       </label>
 <br>
 <div class="put">
       <label for="adults-quantity">Взрослые:
         <div>
           <button class="minus">-</button>
-          <input type="number" name="adults" value="0" id="adults-quantity">
+          <input type="number" name="adults" value="0" id="adults-quantity" class="number-input">
           <button class="plus">+</button>
         </div>
       </label>
@@ -111,7 +110,7 @@
       <label for="kids-quantity">Дети:
         <div>
           <button class="minus">-</button>
-          <input type="number" name="kids" value="0" id="kids-quantity">
+          <input type="number" name="kids" value="0" id="kids-quantity" class="number-input">
           <button class="plus">+</button>
         </div>
       </label>

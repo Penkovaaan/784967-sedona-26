@@ -83,6 +83,7 @@ a{
     display: flex;
     flex-direction: row;
     margin: 0;
+    
 }
 .row-line{
     display: flex;
@@ -186,9 +187,6 @@ h2{
 .form1 .date:first-child{
     padding-top: 56px;
 }
-.date{
-    width: 460px;
-}
 .search{
     cursor: pointer;
     display: block;
@@ -202,9 +200,35 @@ h2{
     width: 460px;
     border: none;
 }
-.put{
-    justify-content: space-between;
-}
+
+.date-input{
+    border: #000;
+    width: 364px;
+    height: 38px;
+    background-color: #f2f2f2;
+  }
+  .number-input{
+    border: #000;
+    width: 38px;
+    height: 38px;
+    background-color: #f2f2f2;
+  }
+  .put{
+      display: flex;
+      flex-direction: row;
+      width: 440px;
+      justify-content: space-around;
+  }
+  .minus, .plus{
+    border: #000;
+    width: 38px;
+    height: 38px;
+    background-color: #f2f2f2;
+    font-weight: 700;
+  }
+  input::placeholder {
+    color: red;
+  }
 .footer-navigation{
     display: flex;
     flex-direction: row;
