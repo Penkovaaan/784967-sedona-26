@@ -53,7 +53,7 @@ color: #766357;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: cadetblue;
-    background-position: 50% 50%;
+    background-position: 50% 0%;
     text-align: center;
     height: 500px;
     
@@ -64,6 +64,7 @@ color: #766357;
 .border{
     position: relative;
     bottom: 50px;
+    margin-right: 1px;
 }
 
 a{
@@ -273,7 +274,7 @@ h2{
     background-color: #81b3d2;
     width: 46px;
     height: 46px;
-    padding-left: 6px;
+    padding-right: 6px;
     margin: auto;
 }
 .contacts a{
@@ -341,7 +342,7 @@ input[type="checkbox"] {
    input:checked + label:before {
    /* глифон - галочка */
     content: " ";
-    background: url("/img/checkbox-on.png") no-repeat 0% 05; 
+    background: url("../img/checkbox-on.png") no-repeat 0% 0%; 
     
    }
     
@@ -507,7 +508,9 @@ input[type="checkbox"] {
 }
 .trangle{
     flex-grow: 6;
-    justify-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .hotels-list{
@@ -526,8 +529,9 @@ input[type="checkbox"] {
 }
 
 .rate{
-  
-    justify-self: end;
+  display: flex;
+  flex-direction: column;
+    justify-content: space-between;
 }
 .star-list{
     display: flex;
@@ -601,6 +605,7 @@ input[type="checkbox"] {
 }
 .namehotel{
     color: black;
+    margin-top:0;
 }
 .namehotel:hover{
     color: #81b3d2;
